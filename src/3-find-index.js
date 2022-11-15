@@ -1,3 +1,5 @@
 export const findIndex = (array, value) => {
-  return
-}
+  return array.findIndex((element) => {
+    return element === value;
+  });
+};
